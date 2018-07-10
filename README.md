@@ -214,9 +214,9 @@
 
 - 목적
   - Zestimate의 성능 개선 : logerror를 예측하는 모델을 만든다. (집값 X)
-    - logerror = log(Zestimate) - log(SalePrice) 
-    - 예측 가격(Zestimate)과 실제 가격, 로그를 씌운 값 차이
-    - Logerror 예측 모델은 실거래가 예측 어려운 상황 개선
+  - logerror = log(Zestimate) - log(SalePrice) 
+  - 예측 가격(Zestimate)과 실제 가격, 로그를 씌운 값 차이
+  - Logerror 예측 모델은 실거래가 예측 어려운 상황 개선
 
 - 방법
   1. EDA, feature selection, modeling. 
@@ -224,7 +224,6 @@
 
 
 2. 명제 : 선형 회귀분석으로 Zestimate의 Log Error를 예측하기 어렵다.
-
   1. EDA : 
     - 선형 회귀모형를 사용하여 종속 변수(log error)를 예측?
     - EDA 과정에서 독립 변수, 종속 변수 간 관계 유의미.
