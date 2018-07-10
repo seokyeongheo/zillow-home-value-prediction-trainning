@@ -224,39 +224,38 @@
 
 
 2. 명제 : 선형 회귀분석으로 Zestimate의 Log Error를 예측하기 어렵다.
-  1. EDA : 
+  (i) EDA : 
     - 선형 회귀모형를 사용하여 종속 변수(log error)를 예측?
     - EDA 과정에서 독립 변수, 종속 변수 간 관계 유의미.
     - 모든 독립변수와 종속변수(logerror)와의 관계 파악(scatter plot)
       - 그래프 넘기면서 보여주기
       - 모든 독립변수 간 관계 (heatmap) : 상관계수가 낮다
 
-  2. 개별 독립 변수로 OLS 만들기
+  (ii) 개별 독립 변수로 OLS 만들기
     - 모델을 만들지 않고 판단 X
     - 각 독립 변수를 유일한 독립 변수, OLS 만들기
       - Numeric variable case : 가설이 옳을 가능성이 높다. 
       - Category variable case : 독립 변수 25개 중 12개가 귀무가설(변수의 영향력이 0이라는)을 기각했다. 가설이 옳지 않을 수도 있다.
 
-  3. 전체 독립 변수로 OLS 만들기
+  (iii) 전체 독립 변수로 OLS 만들기
     - Missing value & imputation
       1. “0” : 독립변수 간 관계를 고려해서 채워넣는다 (tax, bath, feet, tax delinquency, lot size, fireplace, pool, garage, basement, and hot tub)
       2. “KNN" : fancy impute(MICE)를 사용해서 채워넣는다. 모든 독립변수의 영향력을 판단한 결과, 평균값을 넣는 방법을 고려. 
-        `For other variables, the reason for missing data is less clear.  For features such as unit count, bedroom count, bathroom count, number of stories, or year built, missingness was relatively high and it does not make sense to consider an NA as a feature that is not present for a given observation.`
-
-  4. OLS : 1차 결론 : 선형 회귀분석으로 logerror를 예측하는 것은 쉽지 않다.
-    1. r squared가 낮다
-    2. VIF factor가 높다
-    3. QQ plot, residual plot을 그려도 잔차 정규성을 입증할 수 없다
-    4. 이분산성이 크다 : 독립변수가 커짐에 따라 종속변수의 분산이 커지는지 확인.(변수를 하나씩 늘려가면서 종속변수의 분산을 확인한다)
-    5. 잔차와 독립변수 간 상관관계 분석 : 데이터가 올바른 모형으로 분석되었다면 잔차는 더이상 독립 변수와 상관관계를 가지지 않아야 한다. 
+       
+  (iv) OLS : 1차 결론 : 선형 회귀분석으로 logerror를 예측하는 것은 쉽지 않다.
+      1. r squared가 낮다
+      2. VIF factor가 높다
+      3. QQ plot, residual plot을 그려도 잔차 정규성을 입증할 수 없다
+      4. 이분산성이 크다 : 독립변수가 커짐에 따라 종속변수의 분산이 커지는지 확인.(변수를 하나씩 늘려가면서 종속변수의 분산을 확인한다)
+      5. 잔차와 독립변수 간 상관관계 분석 : 데이터가 올바른 모형으로 분석되었다면 잔차는 더이상 독립 변수와 상관관계를 가지지 않아야 한다. 
 
 
 3. 모델 성능 개선
 
-  1. Data Transformation 변수 변환 
-  2. Multiple Linear Regression 다항 회귀 
-  3. VIF
-  4. Interaction. 과최적화 혹은 낮은 퍼포먼스.
+  (i) Data Transformation 변수 변환 
+  (ii) Multiple Linear Regression 다항 회귀 
+  (iii) VIF
+  (iv) Interaction. 과최적화 혹은 낮은 퍼포먼스.
 
 
 
