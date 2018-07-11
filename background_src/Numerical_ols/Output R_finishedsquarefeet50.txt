@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     3.826
+Date:                Fri, 29 Jun 2018   Prob (F-statistic):             0.0505
+Time:                        13:38:19   Log-Likelihood:                 3214.2
+No. Observations:                6856   AIC:                            -6424.
+Df Residuals:                    6854   BIC:                            -6411.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                      0.0102      0.004      2.479      0.013       0.002       0.018
+R_finishedsquarefeet50   5.31e-06   2.71e-06      1.956      0.051    -1.2e-08    1.06e-05
+==============================================================================
+Omnibus:                     3734.142   Durbin-Watson:                   1.963
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         13001735.081
+Skew:                           0.868   Prob(JB):                         0.00
+Kurtosis:                     216.332   Cond. No.                     3.40e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.4e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

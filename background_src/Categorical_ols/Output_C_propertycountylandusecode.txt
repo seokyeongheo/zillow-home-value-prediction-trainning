@@ -1,0 +1,101 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.009
+Model:                            OLS   Adj. R-squared:                  0.008
+Method:                 Least Squares   F-statistic:                     10.51
+Date:                Tue, 03 Jul 2018   Prob (F-statistic):          7.11e-122
+Time:                        02:19:33   Log-Likelihood:                 37138.
+No. Observations:               90275   AIC:                        -7.412e+04
+Df Residuals:                   90197   BIC:                        -7.339e+04
+Df Model:                          77                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================
+                                            coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------
+C(C_propertycountylandusecode)[0]         0.1133      0.160      0.706      0.480      -0.201       0.428
+C(C_propertycountylandusecode)[010]       0.0257      0.160      0.160      0.873      -0.289       0.340
+C(C_propertycountylandusecode)[0100]      0.0122      0.001     13.361      0.000       0.010       0.014
+C(C_propertycountylandusecode)[0101]      0.0054      0.002      2.887      0.004       0.002       0.009
+C(C_propertycountylandusecode)[0102]      0.0852      0.093      0.919      0.358      -0.096       0.267
+C(C_propertycountylandusecode)[0103]      0.0183      0.016      1.143      0.253      -0.013       0.050
+C(C_propertycountylandusecode)[0104]      0.0107      0.009      1.244      0.214      -0.006       0.028
+C(C_propertycountylandusecode)[0108]      0.0118      0.024      0.499      0.618      -0.035       0.058
+C(C_propertycountylandusecode)[0109]      0.2963      0.031      9.596      0.000       0.236       0.357
+C(C_propertycountylandusecode)[010C]      0.0115      0.002      7.245      0.000       0.008       0.015
+C(C_propertycountylandusecode)[010D]      0.0129      0.003      3.791      0.000       0.006       0.020
+C(C_propertycountylandusecode)[010E]      0.0151      0.003      4.493      0.000       0.009       0.022
+C(C_propertycountylandusecode)[010F]      0.0411      0.030      1.356      0.175      -0.018       0.101
+C(C_propertycountylandusecode)[010G]     -0.0474      0.018     -2.640      0.008      -0.083      -0.012
+C(C_propertycountylandusecode)[010H]      0.0456      0.019      2.413      0.016       0.009       0.083
+C(C_propertycountylandusecode)[010M]      0.0625      0.021      2.991      0.003       0.022       0.103
+C(C_propertycountylandusecode)[010V]     -0.0208      0.011     -1.835      0.066      -0.043       0.001
+C(C_propertycountylandusecode)[0110]      0.0304      0.080      0.379      0.705      -0.127       0.188
+C(C_propertycountylandusecode)[0111]      0.0658      0.160      0.410      0.682      -0.249       0.380
+C(C_propertycountylandusecode)[0114]     -0.0060      0.160     -0.037      0.970      -0.320       0.308
+C(C_propertycountylandusecode)[012C]      0.0015      0.007      0.210      0.834      -0.012       0.015
+C(C_propertycountylandusecode)[012D]      0.0351      0.080      0.437      0.662      -0.122       0.192
+C(C_propertycountylandusecode)[012E]      0.0547      0.061      0.903      0.367      -0.064       0.174
+C(C_propertycountylandusecode)[0130]      0.0188      0.160      0.117      0.907      -0.296       0.333
+C(C_propertycountylandusecode)[0131]     -0.0233      0.160     -0.145      0.885      -0.338       0.291
+C(C_propertycountylandusecode)[01DC]      0.0096      0.010      0.950      0.342      -0.010       0.029
+C(C_propertycountylandusecode)[01DD]     -1.3740      0.160     -8.564      0.000      -1.688      -1.060
+C(C_propertycountylandusecode)[01HC]      0.0345      0.013      2.613      0.009       0.009       0.060
+C(C_propertycountylandusecode)[0200]      0.0124      0.003      3.577      0.000       0.006       0.019
+C(C_propertycountylandusecode)[0201]      0.0003      0.024      0.011      0.991      -0.048       0.048
+C(C_propertycountylandusecode)[020G]      0.1164      0.080      1.451      0.147      -0.041       0.274
+C(C_propertycountylandusecode)[020M]      0.1553      0.160      0.968      0.333      -0.159       0.470
+C(C_propertycountylandusecode)[0210]     -0.0812      0.160     -0.506      0.613      -0.396       0.233
+C(C_propertycountylandusecode)[0300]     -0.0032      0.007     -0.487      0.626      -0.016       0.010
+C(C_propertycountylandusecode)[0301]     -0.0790      0.160     -0.492      0.622      -0.393       0.235
+C(C_propertycountylandusecode)[0303]      0.0149      0.160      0.093      0.926      -0.300       0.329
+C(C_propertycountylandusecode)[030G]     -0.0900      0.113     -0.794      0.427      -0.312       0.132
+C(C_propertycountylandusecode)[0400]      0.0020      0.006      0.340      0.734      -0.010       0.013
+C(C_propertycountylandusecode)[0401]      0.3858      0.080      4.810      0.000       0.229       0.543
+C(C_propertycountylandusecode)[040A]      1.5470      0.160      9.643      0.000       1.233       1.861
+C(C_propertycountylandusecode)[040V]      0.0635      0.065      0.970      0.332      -0.065       0.192
+C(C_propertycountylandusecode)[0700]      0.1093      0.022      5.005      0.000       0.066       0.152
+C(C_propertycountylandusecode)[070D]      0.0710      0.061      1.171      0.242      -0.048       0.190
+C(C_propertycountylandusecode)[1]         0.0164      0.003      5.522      0.000       0.011       0.022
+C(C_propertycountylandusecode)[100V]     -0.1347      0.072     -1.878      0.060      -0.275       0.006
+C(C_propertycountylandusecode)[1011]     -0.0764      0.113     -0.673      0.501      -0.299       0.146
+C(C_propertycountylandusecode)[1012]     -0.0051      0.113     -0.045      0.964      -0.227       0.217
+C(C_propertycountylandusecode)[1014]     -0.0308      0.028     -1.087      0.277      -0.086       0.025
+C(C_propertycountylandusecode)[105]      -0.0011      0.080     -0.014      0.989      -0.158       0.156
+C(C_propertycountylandusecode)[1110]      0.0276      0.005      5.756      0.000       0.018       0.037
+C(C_propertycountylandusecode)[1111]      0.0144      0.003      5.611      0.000       0.009       0.019
+C(C_propertycountylandusecode)[1112]      0.0295      0.072      0.411      0.681      -0.111       0.170
+C(C_propertycountylandusecode)[1116]      0.1662      0.048      3.436      0.001       0.071       0.261
+C(C_propertycountylandusecode)[1117]      0.0503      0.024      2.126      0.033       0.004       0.097
+C(C_propertycountylandusecode)[1128]      0.0140      0.009      1.646      0.100      -0.003       0.031
+C(C_propertycountylandusecode)[1129]      0.0185      0.004      4.662      0.000       0.011       0.026
+C(C_propertycountylandusecode)[1200]      1.3010      0.160      8.109      0.000       0.987       1.615
+C(C_propertycountylandusecode)[1210]      0.0015      0.023      0.064      0.949      -0.044       0.047
+C(C_propertycountylandusecode)[122]       0.0122      0.001      9.401      0.000       0.010       0.015
+C(C_propertycountylandusecode)[1222]     -0.0363      0.030     -1.196      0.232      -0.096       0.023
+C(C_propertycountylandusecode)[1310]     -0.1087      0.080     -1.355      0.175      -0.266       0.048
+C(C_propertycountylandusecode)[1321]      0.0799      0.061      1.317      0.188      -0.039       0.199
+C(C_propertycountylandusecode)[1333]      0.2904      0.160      1.810      0.070      -0.024       0.605
+C(C_propertycountylandusecode)[135]      -0.0340      0.027     -1.255      0.209      -0.087       0.019
+C(C_propertycountylandusecode)[1410]      0.0199      0.044      0.447      0.655      -0.067       0.107
+C(C_propertycountylandusecode)[1420]      0.1337      0.160      0.833      0.405      -0.181       0.448
+C(C_propertycountylandusecode)[1421]      0.0301      0.113      0.265      0.791      -0.192       0.252
+C(C_propertycountylandusecode)[1432]     -0.0952      0.113     -0.839      0.402      -0.317       0.127
+C(C_propertycountylandusecode)[1720]      0.2414      0.061      3.981      0.000       0.123       0.360
+C(C_propertycountylandusecode)[1722]     -2.6880      0.160    -16.755      0.000      -3.002      -2.374
+C(C_propertycountylandusecode)[200]      -0.6733      0.160     -4.197      0.000      -0.988      -0.359
+C(C_propertycountylandusecode)[34]        0.0039      0.002      1.890      0.059      -0.000       0.008
+C(C_propertycountylandusecode)[38]       -0.0242      0.016     -1.556      0.120      -0.055       0.006
+C(C_propertycountylandusecode)[6050]     -0.1416      0.160     -0.883      0.377      -0.456       0.173
+C(C_propertycountylandusecode)[73]        0.0381      0.048      0.787      0.431      -0.057       0.133
+C(C_propertycountylandusecode)[8800]     -0.0661      0.160     -0.412      0.680      -0.381       0.248
+C(C_propertycountylandusecode)[96]       -0.0038      0.016     -0.244      0.807      -0.035       0.027
+C(C_propertycountylandusecode)[Nulls]    -0.0050      0.160     -0.031      0.975      -0.319       0.309
+==============================================================================
+Omnibus:                    66491.792   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         65229725.546
+Skew:                           2.190   Prob(JB):                         0.00
+Kurtosis:                     134.615   Cond. No.                         176.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

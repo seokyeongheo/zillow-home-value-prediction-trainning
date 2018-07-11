@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     3.824
+Date:                Fri, 29 Jun 2018   Prob (F-statistic):             0.0505
+Time:                        12:24:09   Log-Likelihood:                 36738.
+No. Observations:               90274   AIC:                        -7.347e+04
+Df Residuals:                   90272   BIC:                        -7.345e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.0106      0.001     15.248      0.000       0.009       0.012
+R_taxvaluedollarcnt  1.889e-09   9.66e-10      1.955      0.051   -4.45e-12    3.78e-09
+==============================================================================
+Omnibus:                    66095.589   Durbin-Watson:                   1.926
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         64900729.241
+Skew:                           2.164   Prob(JB):                         0.00
+Kurtosis:                     134.284   Cond. No.                     9.32e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.32e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

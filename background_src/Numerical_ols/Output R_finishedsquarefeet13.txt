@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.031
+Method:                 Least Squares   F-statistic:                   0.03740
+Date:                Fri, 29 Jun 2018   Prob (F-statistic):              0.848
+Time:                        13:38:18   Log-Likelihood:                 5.2185
+No. Observations:                  33   AIC:                            -6.437
+Df Residuals:                      31   BIC:                            -3.444
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -0.0508      0.482     -0.105      0.917      -1.034       0.932
+R_finishedsquarefeet13  6.618e-05      0.000      0.193      0.848      -0.001       0.001
+==============================================================================
+Omnibus:                       24.940   Durbin-Watson:                   2.395
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               49.630
+Skew:                           1.728   Prob(JB):                     1.67e-11
+Kurtosis:                       7.914   Cond. No.                     1.83e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.83e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

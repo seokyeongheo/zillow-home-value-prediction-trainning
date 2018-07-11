@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     2.422
+Date:                Tue, 03 Jul 2018   Prob (F-statistic):              0.120
+Time:                        13:37:39   Log-Likelihood:                 36737.
+No. Observations:               90275   AIC:                        -7.347e+04
+Df Residuals:                   90273   BIC:                        -7.345e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+C(C_hashottuborspa)[False]          0          0        nan        nan           0           0
+C(C_hashottuborspa)[True]      0.0064      0.003      1.923      0.054      -0.000       0.013
+C(C_hashottuborspa)[Nulls]     0.0116      0.001     21.341      0.000       0.011       0.013
+==============================================================================
+Omnibus:                    66176.331   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         64990041.671
+Skew:                           2.169   Prob(JB):                         0.00
+Kurtosis:                     134.374   Cond. No.                          inf
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

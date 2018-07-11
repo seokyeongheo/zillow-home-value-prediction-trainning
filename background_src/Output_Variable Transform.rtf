@@ -1,0 +1,128 @@
+{\rtf1\ansi\ansicpg949\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Consolas;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh16580\viewkind0
+\deftab720
+\pard\pardeftab720\sl240\partightenfactor0
+
+\f0\fs20 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2   OLS Regression Results                            \
+==============================================================================\
+Dep. Variable:               logerror   R-squared:                       0.032\
+Model:                            OLS   Adj. R-squared:                  0.031\
+Method:                 Least Squares   F-statistic:                     33.43\
+Date:                Sat, 07 Jul 2018   Prob (F-statistic):               0.00\
+Time:                        04:17:06   Log-Likelihood:                 38167.\
+No. Observations:               90527   AIC:                        -7.616e+04\
+Df Residuals:                   90438   BIC:                        -7.532e+04\
+Df Model:                          88                                         \
+Covariance Type:            nonrobust                                         \
+==========================================================================================================\
+                                             coef    std err          t      P>|t|      [0.025      0.975]\
+----------------------------------------------------------------------------------------------------------\
+Intercept                               7.656e+07   1.38e+10      0.006      0.996   -2.69e+10    2.71e+10\
+C(buildingqualitytypeid)[T.10.0]          -0.0063      0.005     -1.201      0.230      -0.017       0.004\
+C(buildingqualitytypeid)[T.4.0]            0.0032      0.004      0.839      0.401      -0.004       0.011\
+C(buildingqualitytypeid)[T.7.0]            0.0017      0.004      0.454      0.650      -0.006       0.009\
+C(buildingqualitytypeid)[T.8.0]            0.3581      0.071      5.033      0.000       0.219       0.498\
+C(buildingqualitytypeid)[T.others]        -0.0051      0.006     -0.870      0.384      -0.017       0.006\
+C(fips)[T.6059.0]                      -7.656e+07   1.38e+10     -0.006      0.996   -2.71e+10    2.69e+10\
+C(fips)[T.6111.0]                      -3.004e+07   5.41e+09     -0.006      0.996   -1.06e+10    1.06e+10\
+C(heatingorsystemtypeid)[T.7.0]           -0.0014      0.002     -0.728      0.467      -0.005       0.002\
+C(heatingorsystemtypeid)[T.others]        -0.0043      0.004     -1.007      0.314      -0.013       0.004\
+C(propertycountylandusecode)[T.0109]       0.2812      0.031      9.166      0.000       0.221       0.341\
+C(propertycountylandusecode)[T.010C]      -0.0065      0.003     -2.077      0.038      -0.013      -0.000\
+C(propertycountylandusecode)[T.01DD]      -1.3632      0.159     -8.576      0.000      -1.675      -1.052\
+C(propertycountylandusecode)[T.040A]       1.5342      0.159      9.645      0.000       1.222       1.846\
+C(propertycountylandusecode)[T.1110]       0.0034      0.007      0.481      0.631      -0.010       0.017\
+C(propertycountylandusecode)[T.1111]      -0.0061      0.005     -1.141      0.254      -0.017       0.004\
+C(propertycountylandusecode)[T.1200]   -1.375e+04   2.48e+06     -0.006      0.996   -4.87e+06    4.84e+06\
+C(propertycountylandusecode)[T.1722]   -4.222e+04    7.6e+06     -0.006      0.996   -1.49e+07    1.49e+07\
+C(propertycountylandusecode)[T.others]    -0.0086      0.002     -4.305      0.000      -0.013      -0.005\
+C(propertylandusetypeid)[T.261.0]         -0.0146      0.006     -2.460      0.014      -0.026      -0.003\
+C(propertylandusetypeid)[T.263.0]          0.0784      0.018      4.379      0.000       0.043       0.113\
+C(propertylandusetypeid)[T.266.0]         -0.0016      0.006     -0.261      0.794      -0.014       0.010\
+C(propertylandusetypeid)[T.269.0]         -0.0126      0.007     -1.921      0.055      -0.026       0.000\
+C(propertylandusetypeid)[T.47.0]        1.376e+04   2.48e+06      0.006      0.996   -4.84e+06    4.87e+06\
+C(propertylandusetypeid)[T.others]        -0.0132      0.005     -2.398      0.016      -0.024      -0.002\
+C(propertyzoningdesc)[T.BRA2*]            -1.3328      0.127    -10.535      0.000      -1.581      -1.085\
+C(propertyzoningdesc)[T.CEADP11]          -0.1434      0.092     -1.562      0.118      -0.323       0.037\
+C(propertyzoningdesc)[T.CV17500-RD]        1.1557      0.169      6.831      0.000       0.824       1.487\
+C(propertyzoningdesc)[T.LCA11000*]         1.7121      0.169     10.122      0.000       1.381       2.044\
+C(propertyzoningdesc)[T.LCRAL*]           -1.9384      0.169    -11.455      0.000      -2.270      -1.607\
+C(propertyzoningdesc)[T.LCRPD13U-R]        0.6943      0.169      4.104      0.000       0.363       1.026\
+C(propertyzoningdesc)[T.LPR2*]             0.7573      0.127      5.968      0.000       0.509       1.006\
+C(propertyzoningdesc)[T.WDC1B*]         4.222e+04    7.6e+06      0.006      0.996   -1.49e+07    1.49e+07\
+C(propertyzoningdesc)[T.others]           -0.5855      0.058    -10.056      0.000      -0.700      -0.471\
+C(regionidcity)[T.20008.0]                 0.0165      0.006      2.781      0.005       0.005       0.028\
+C(regionidcity)[T.22827.0]                 0.0303      0.009      3.233      0.001       0.012       0.049\
+C(regionidcity)[T.24797.0]                 1.2181      0.113     10.826      0.000       0.998       1.439\
+C(regionidcity)[T.3491.0]                  0.7394      0.116      6.359      0.000       0.511       0.967\
+C(regionidcity)[T.37015.0]                -0.0315      0.043     -0.731      0.465      -0.116       0.053\
+C(regionidcity)[T.47568.0]                 0.0216      0.005      4.192      0.000       0.012       0.032\
+C(regionidcity)[T.50749.0]                 0.0284      0.007      4.011      0.000       0.015       0.042\
+C(regionidcity)[T.51239.0]                 0.0055      0.008      0.728      0.467      -0.009       0.020\
+C(regionidcity)[T.others]                  0.0010      0.001      0.676      0.499      -0.002       0.004\
+C(regionidcounty)[T.2061.0]            -4.651e+07   8.37e+09     -0.006      0.996   -1.65e+10    1.64e+10\
+C(regionidcounty)[T.3101.0]            -7.656e+07   1.38e+10     -0.006      0.996   -2.71e+10    2.69e+10\
+C(regionidneighborhood)[T.268496.0]       -0.0542      0.024     -2.222      0.026      -0.102      -0.006\
+C(regionidneighborhood)[T.275340.0]        0.0725      0.039      1.865      0.062      -0.004       0.149\
+C(regionidneighborhood)[T.33183.0]        -0.0077      0.025     -0.312      0.755      -0.056       0.040\
+C(regionidneighborhood)[T.36630.0]         0.9964      0.095     10.539      0.000       0.811       1.182\
+C(regionidneighborhood)[T.416314.0]        0.2305      0.069      3.348      0.001       0.096       0.365\
+C(regionidneighborhood)[T.760999.0]        0.2965      0.083      3.585      0.000       0.134       0.459\
+C(regionidneighborhood)[T.762178.0]       -0.0314      0.051     -0.612      0.541      -0.132       0.069\
+C(regionidneighborhood)[T.others]         -0.0252      0.023     -1.094      0.274      -0.070       0.020\
+C(regionidzip)[T.95984.0]                  0.0304      0.017      1.816      0.069      -0.002       0.063\
+C(regionidzip)[T.96005.0]                  0.0817      0.028      2.942      0.003       0.027       0.136\
+C(regionidzip)[T.96207.0]                 -0.6441      0.117     -5.517      0.000      -0.873      -0.415\
+C(regionidzip)[T.96354.0]                  0.0824      0.020      4.174      0.000       0.044       0.121\
+C(regionidzip)[T.96464.0]                  0.1247      0.044      2.804      0.005       0.038       0.212\
+C(regionidzip)[T.96488.0]                  0.0842      0.016      5.331      0.000       0.053       0.115\
+C(regionidzip)[T.96951.0]                  0.2939      0.034      8.672      0.000       0.227       0.360\
+C(regionidzip)[T.97089.0]                  0.0729      0.017      4.345      0.000       0.040       0.106\
+C(regionidzip)[T.97344.0]                  0.1193      0.022      5.492      0.000       0.077       0.162\
+C(regionidzip)[T.others]                   0.0617      0.013      4.706      0.000       0.036       0.087\
+C(taxdelinquencyflag)[T.others]           -0.0262      0.004     -6.871      0.000      -0.034      -0.019\
+scale(parcelid)                           -0.0002      0.001     -0.294      0.769      -0.002       0.001\
+scale(basementsqft)                       -0.0004      0.001     -0.307      0.759      -0.003       0.002\
+scale(bathroomcnt)                        -0.0100      0.002     -4.206      0.000      -0.015      -0.005\
+scale(bedroomcnt)                          0.0026      0.001      2.855      0.004       0.001       0.004\
+scale(calculatedbathnbr)                   0.0108      0.005      2.338      0.019       0.002       0.020\
+scale(calculatedfinishedsquarefeet)        0.0067      0.004      1.901      0.057      -0.000       0.014\
+scale(finishedfloor1squarefeet)            0.0031      0.003      0.954      0.340      -0.003       0.010\
+scale(finishedsquarefeet12)                0.0068      0.003      1.954      0.051   -1.91e-05       0.014\
+scale(finishedsquarefeet13)                0.0001      0.001      0.154      0.877      -0.001       0.002\
+scale(finishedsquarefeet15)                0.0006      0.002      0.295      0.768      -0.004       0.005\
+scale(finishedsquarefeet50)               -0.0033      0.003     -1.019      0.308      -0.010       0.003\
+scale(finishedsquarefeet6)                -0.0006      0.001     -0.518      0.604      -0.003       0.002\
+scale(fireplacecnt)                        0.0010      0.001      0.756      0.450      -0.002       0.004\
+scale(fullbathcnt)                        -0.0007      0.004     -0.175      0.861      -0.008       0.007\
+scale(garagecarcnt)                        0.0008      0.001      0.892      0.372      -0.001       0.003\
+scale(garagetotalsqft)                    -0.0008      0.001     -0.609      0.542      -0.003       0.002\
+scale(np.log(landtaxvaluedollarcnt))       0.0160      0.001     14.171      0.000       0.014       0.018\
+scale(np.log(lotsizesquarefeet))          -0.0031      0.001     -2.917      0.004      -0.005      -0.001\
+scale(numberofstories)                    -0.0001      0.001     -0.154      0.877      -0.002       0.001\
+scale(poolcnt)                            -0.0006      0.001     -1.138      0.255      -0.002       0.000\
+scale(np.log(poolsizesum))                 0.0006      0.001      0.642      0.521      -0.001       0.003\
+scale(roomcnt)                             0.0005      0.001      0.461      0.645      -0.001       0.002\
+scale(structuretaxvaluedollarcnt)          0.0057      0.004      1.466      0.143      -0.002       0.013\
+scale(np.log(taxamount))                  -0.0262      0.001    -21.747      0.000      -0.029      -0.024\
+scale(taxvaluedollarcnt)                  -0.0026      0.002     -1.483      0.138      -0.006       0.001\
+scale(threequarterbathnbr)                -0.0003      0.001     -0.375      0.708      -0.002       0.001\
+scale(np.log(unitcnt))                    -0.0019      0.001     -1.553      0.120      -0.004       0.000\
+scale(yardbuildingsqft17)                 -0.0019      0.001     -1.598      0.110      -0.004       0.000\
+scale(np.log(yardbuildingsqft26))          0.0006      0.001      0.781      0.435      -0.001       0.002\
+==============================================================================\
+Omnibus:                    63716.701   Durbin-Watson:                   1.927\
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         65007916.509\
+Skew:                           1.993   Prob(JB):                         0.00\
+Kurtosis:                     134.220   Cond. No.                     1.33e+16\
+==============================================================================\
+\
+Warnings:\
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\
+[2] The smallest eigenvalue is 6.83e-27. This might indicate that there are\
+strong multicollinearity problems or that the design matrix is singular.\
+}

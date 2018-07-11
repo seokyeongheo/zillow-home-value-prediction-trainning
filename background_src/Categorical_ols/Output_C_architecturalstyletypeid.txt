@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                   0.08629
+Date:                Tue, 03 Jul 2018   Prob (F-statistic):              0.998
+Time:                        13:37:36   Log-Likelihood:                 36736.
+No. Observations:               90275   AIC:                        -7.346e+04
+Df Residuals:                   90268   BIC:                        -7.339e+04
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+C(C_architecturalstyletypeid)[2.0]       0.0123      0.049      0.252      0.801      -0.083       0.107
+C(C_architecturalstyletypeid)[3.0]       0.0462      0.081      0.574      0.566      -0.112       0.204
+C(C_architecturalstyletypeid)[7.0]       0.0164      0.011      1.515      0.130      -0.005       0.038
+C(C_architecturalstyletypeid)[8.0]       0.0159      0.040      0.395      0.693      -0.063       0.095
+C(C_architecturalstyletypeid)[10.0]      0.0639      0.161      0.397      0.692      -0.252       0.380
+C(C_architecturalstyletypeid)[21.0]      0.0145      0.057      0.254      0.799      -0.097       0.126
+C(C_architecturalstyletypeid)[Nulls]     0.0114      0.001     21.311      0.000       0.010       0.012
+==============================================================================
+Omnibus:                    66170.770   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         64985728.595
+Skew:                           2.169   Prob(JB):                         0.00
+Kurtosis:                     134.369   Cond. No.                         300.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

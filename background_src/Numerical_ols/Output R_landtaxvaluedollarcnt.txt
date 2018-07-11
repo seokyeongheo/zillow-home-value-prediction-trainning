@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                    0.8403
+Date:                Fri, 29 Jun 2018   Prob (F-statistic):              0.359
+Time:                        12:24:10   Log-Likelihood:                 36737.
+No. Observations:               90274   AIC:                        -7.347e+04
+Df Residuals:                   90272   BIC:                        -7.345e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       0.0118      0.001     18.078      0.000       0.011       0.013
+R_landtaxvaluedollarcnt -1.227e-09   1.34e-09     -0.917      0.359   -3.85e-09     1.4e-09
+==============================================================================
+Omnibus:                    66200.987   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         65023386.563
+Skew:                           2.171   Prob(JB):                         0.00
+Kurtosis:                     134.408   Cond. No.                     5.94e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.94e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     3.079
+Date:                Tue, 03 Jul 2018   Prob (F-statistic):           0.000228
+Time:                        13:37:39   Log-Likelihood:                 36754.
+No. Observations:               90275   AIC:                        -7.348e+04
+Df Residuals:                   90262   BIC:                        -7.336e+04
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================================
+                                        coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+C(C_heatingorsystemtypeid)[1.0]       0.0246      0.045      0.550      0.582      -0.063       0.112
+C(C_heatingorsystemtypeid)[2.0]       0.0132      0.001     16.095      0.000       0.012       0.015
+C(C_heatingorsystemtypeid)[6.0]       0.0098      0.005      1.895      0.058      -0.000       0.020
+C(C_heatingorsystemtypeid)[7.0]       0.0075      0.001      5.795      0.000       0.005       0.010
+C(C_heatingorsystemtypeid)[10.0]     -0.0293      0.114     -0.257      0.797      -0.253       0.194
+C(C_heatingorsystemtypeid)[11.0]     -0.0151      0.161     -0.094      0.925      -0.331       0.301
+C(C_heatingorsystemtypeid)[12.0]     -0.0131      0.161     -0.081      0.935      -0.329       0.303
+C(C_heatingorsystemtypeid)[13.0]  -1.184e-05      0.018     -0.001      0.999      -0.036       0.036
+C(C_heatingorsystemtypeid)[14.0]     -0.0049      0.114     -0.043      0.966      -0.228       0.218
+C(C_heatingorsystemtypeid)[18.0]      0.0274      0.032      0.852      0.394      -0.036       0.091
+C(C_heatingorsystemtypeid)[20.0]     -0.0007      0.016     -0.042      0.967      -0.033       0.031
+C(C_heatingorsystemtypeid)[24.0]     -0.0110      0.005     -2.231      0.026      -0.021      -0.001
+C(C_heatingorsystemtypeid)[Nulls]     0.0121      0.001     13.837      0.000       0.010       0.014
+==============================================================================
+Omnibus:                    66300.064   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         64874618.925
+Skew:                           2.178   Prob(JB):                         0.00
+Kurtosis:                     134.256   Cond. No.                         196.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

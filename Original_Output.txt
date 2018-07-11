@@ -1,0 +1,128 @@
+
+
+
+
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Z_logerror   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                  0.028
+Method:                 Least Squares   F-statistic:                     30.85
+Date:                Fri, 06 Jul 2018   Prob (F-statistic):               0.00
+Time:                        18:01:13   Log-Likelihood:                 38042.
+No. Observations:               90527   AIC:                        -7.591e+04
+Df Residuals:                   90439   BIC:                        -7.508e+04
+Df Model:                          87                                         
+Covariance Type:            nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    1.4638      0.938      1.560      0.119      -0.376       3.303
+C(C_buildingqualitytypeid)[T.10.0]          -0.0019      0.005     -0.358      0.720      -0.012       0.008
+C(C_buildingqualitytypeid)[T.4.0]            0.0032      0.003      0.963      0.335      -0.003       0.010
+C(C_buildingqualitytypeid)[T.7.0]            0.0047      0.004      1.288      0.198      -0.002       0.012
+C(C_buildingqualitytypeid)[T.8.0]            0.3779      0.071      5.303      0.000       0.238       0.518
+C(C_buildingqualitytypeid)[T.others]         0.0013      0.006      0.224      0.822      -0.010       0.013
+C(C_fips)[T.6059.0]                          0.5862      0.375      1.561      0.118      -0.150       1.322
+C(C_fips)[T.6111.0]                          0.2959      0.188      1.576      0.115      -0.072       0.664
+C(C_heatingorsystemtypeid)[T.7.0]            0.0007      0.002      0.356      0.722      -0.003       0.005
+C(C_heatingorsystemtypeid)[T.others]        -0.0016      0.004     -0.391      0.696      -0.010       0.007
+C(C_propertycountylandusecode)[T.0109]       0.2805      0.031      9.129      0.000       0.220       0.341
+C(C_propertycountylandusecode)[T.010C]      -0.0070      0.003     -2.235      0.025      -0.013      -0.001
+C(C_propertycountylandusecode)[T.01DD]      -1.2776      0.160     -7.991      0.000      -1.591      -0.964
+C(C_propertycountylandusecode)[T.040A]       1.5345      0.159      9.634      0.000       1.222       1.847
+C(C_propertycountylandusecode)[T.1110]      -0.0041      0.007     -0.593      0.553      -0.018       0.009
+C(C_propertycountylandusecode)[T.1111]      -0.0139      0.005     -2.648      0.008      -0.024      -0.004
+C(C_propertycountylandusecode)[T.1200]       0.6341      0.080      7.965      0.000       0.478       0.790
+C(C_propertycountylandusecode)[T.1722]      -1.6334      0.088    -18.601      0.000      -1.806      -1.461
+C(C_propertycountylandusecode)[T.others]    -0.0087      0.002     -4.338      0.000      -0.013      -0.005
+C(C_propertylandusetypeid)[T.261.0]         -0.0067      0.006     -1.217      0.223      -0.018       0.004
+C(C_propertylandusetypeid)[T.263.0]          0.0885      0.018      5.002      0.000       0.054       0.123
+C(C_propertylandusetypeid)[T.266.0]          0.0040      0.006      0.709      0.478      -0.007       0.015
+C(C_propertylandusetypeid)[T.269.0]         -0.0026      0.006     -0.418      0.676      -0.015       0.010
+C(C_propertylandusetypeid)[T.47.0]           0.6341      0.080      7.965      0.000       0.478       0.790
+C(C_propertylandusetypeid)[T.others]        -0.0140      0.005     -2.596      0.009      -0.025      -0.003
+C(C_propertyzoningdesc)[T.BRA2*]            -1.3088      0.127    -10.331      0.000      -1.557      -1.060
+C(C_propertyzoningdesc)[T.CEADP11]          -0.1124      0.092     -1.223      0.221      -0.293       0.068
+C(C_propertyzoningdesc)[T.CV17500-RD]        1.1800      0.169      6.966      0.000       0.848       1.512
+C(C_propertyzoningdesc)[T.LCA11000*]         1.7279      0.169     10.201      0.000       1.396       2.060
+C(C_propertyzoningdesc)[T.LCRAL*]           -1.9164      0.169    -11.310      0.000      -2.249      -1.584
+C(C_propertyzoningdesc)[T.LCRPD13U-R]        0.7196      0.169      4.247      0.000       0.388       1.052
+C(C_propertyzoningdesc)[T.LPR2*]             0.7903      0.127      6.222      0.000       0.541       1.039
+C(C_propertyzoningdesc)[T.WDC1B*]           -1.6334      0.088    -18.601      0.000      -1.806      -1.461
+C(C_propertyzoningdesc)[T.others]           -0.5619      0.058     -9.644      0.000      -0.676      -0.448
+C(C_regionidcity)[T.20008.0]                 0.0169      0.006      2.842      0.004       0.005       0.028
+C(C_regionidcity)[T.22827.0]                 0.0299      0.009      3.190      0.001       0.012       0.048
+C(C_regionidcity)[T.24797.0]                 1.2383      0.113     10.991      0.000       1.017       1.459
+C(C_regionidcity)[T.3491.0]                  0.7373      0.116      6.333      0.000       0.509       0.965
+C(C_regionidcity)[T.37015.0]                -0.0283      0.043     -0.657      0.511      -0.113       0.056
+C(C_regionidcity)[T.47568.0]                 0.0217      0.005      4.214      0.000       0.012       0.032
+C(C_regionidcity)[T.50749.0]                 0.0283      0.007      4.002      0.000       0.014       0.042
+C(C_regionidcity)[T.51239.0]                 0.0068      0.008      0.893      0.372      -0.008       0.022
+C(C_regionidcity)[T.others]                 -0.0009      0.001     -0.614      0.539      -0.004       0.002
+C(C_regionidcounty)[T.2061.0]                0.2959      0.188      1.576      0.115      -0.072       0.664
+C(C_regionidcounty)[T.3101.0]                0.5818      0.375      1.550      0.121      -0.154       1.318
+C(C_regionidneighborhood)[T.268496.0]       -0.0546      0.024     -2.238      0.025      -0.102      -0.007
+C(C_regionidneighborhood)[T.275340.0]        0.0979      0.039      2.515      0.012       0.022       0.174
+C(C_regionidneighborhood)[T.33183.0]        -0.0086      0.025     -0.349      0.727      -0.057       0.040
+C(C_regionidneighborhood)[T.36630.0]         1.0050      0.095     10.615      0.000       0.819       1.191
+C(C_regionidneighborhood)[T.416314.0]        0.2310      0.069      3.350      0.001       0.096       0.366
+C(C_regionidneighborhood)[T.760999.0]        0.3081      0.083      3.721      0.000       0.146       0.470
+C(C_regionidneighborhood)[T.762178.0]       -0.0358      0.051     -0.697      0.486      -0.137       0.065
+C(C_regionidneighborhood)[T.others]         -0.0265      0.023     -1.150      0.250      -0.072       0.019
+C(C_regionidzip)[T.95984.0]                  0.0324      0.017      1.935      0.053      -0.000       0.065
+C(C_regionidzip)[T.96005.0]                  0.0789      0.028      2.837      0.005       0.024       0.133
+C(C_regionidzip)[T.96207.0]                 -0.6477      0.117     -5.541      0.000      -0.877      -0.419
+C(C_regionidzip)[T.96354.0]                  0.0839      0.020      4.241      0.000       0.045       0.123
+C(C_regionidzip)[T.96464.0]                  0.1235      0.045      2.774      0.006       0.036       0.211
+C(C_regionidzip)[T.96488.0]                  0.0868      0.016      5.487      0.000       0.056       0.118
+C(C_regionidzip)[T.96951.0]                  0.2753      0.034      8.121      0.000       0.209       0.342
+C(C_regionidzip)[T.97089.0]                  0.0717      0.017      4.274      0.000       0.039       0.105
+C(C_regionidzip)[T.97344.0]                  0.1251      0.022      5.764      0.000       0.083       0.168
+C(C_regionidzip)[T.others]                   0.0628      0.013      4.785      0.000       0.037       0.089
+C(C_taxdelinquencyflag)[T.others]           -0.0257      0.004     -6.740      0.000      -0.033      -0.018
+R_basementsqft                            6.013e-06   6.41e-06      0.939      0.348   -6.54e-06    1.86e-05
+R_bathroomcnt                               -0.0115      0.002     -4.858      0.000      -0.016      -0.007
+R_bedroomcnt                                 0.0015      0.001      1.969      0.049     7.2e-06       0.003
+R_calculatedbathnbr                          0.0085      0.005      1.780      0.075      -0.001       0.018
+R_calculatedfinishedsquarefeet            6.764e-06   3.87e-06      1.749      0.080   -8.15e-07    1.43e-05
+R_finishedfloor1squarefeet                6.695e-06   5.45e-06      1.228      0.219   -3.99e-06    1.74e-05
+R_finishedsquarefeet12                    5.281e-06   3.96e-06      1.335      0.182   -2.47e-06     1.3e-05
+R_finishedsquarefeet13                    1.101e-05   4.71e-06      2.338      0.019    1.78e-06    2.02e-05
+R_finishedsquarefeet15                   -9.111e-07   3.41e-06     -0.267      0.789    -7.6e-06    5.78e-06
+R_finishedsquarefeet50                    -3.66e-06   5.21e-06     -0.702      0.483   -1.39e-05    6.56e-06
+R_finishedsquarefeet6                    -1.613e-06   2.68e-06     -0.603      0.547   -6.86e-06    3.63e-06
+R_fireplacecnt                               0.0024      0.004      0.643      0.520      -0.005       0.010
+R_fullbathcnt                                0.0026      0.004      0.666      0.505      -0.005       0.010
+R_garagecarcnt                               0.0007      0.002      0.355      0.723      -0.003       0.005
+R_garagetotalsqft                        -6.208e-07    6.8e-06     -0.091      0.927   -1.39e-05    1.27e-05
+R_landtaxvaluedollarcnt                  -3.402e-06   5.02e-07     -6.783      0.000   -4.39e-06   -2.42e-06
+R_lotsizesquarefeet                      -1.586e-08   2.04e-08     -0.776      0.438   -5.59e-08    2.42e-08
+R_numberofstories                           -0.0001      0.002     -0.066      0.947      -0.005       0.004
+R_poolcnt                                   -1.5089      1.312     -1.150      0.250      -4.081       1.063
+R_poolsizesum                            -2.469e-05   2.06e-05     -1.196      0.232   -6.51e-05    1.58e-05
+R_roomcnt                                    0.0004      0.000      1.065      0.287      -0.000       0.001
+R_structuretaxvaluedollarcnt             -3.402e-06   5.03e-07     -6.770      0.000   -4.39e-06   -2.42e-06
+R_taxamount                              -3.361e-06   2.53e-07    -13.306      0.000   -3.86e-06   -2.87e-06
+R_taxvaluedollarcnt                       3.434e-06   5.02e-07      6.846      0.000    2.45e-06    4.42e-06
+R_threequarterbathnbr                        0.0060      0.015      0.395      0.693      -0.024       0.035
+R_unitcnt                                   -0.0006      0.001     -0.618      0.537      -0.002       0.001
+R_yardbuildingsqft17                     -1.274e-05   1.21e-05     -1.055      0.291   -3.64e-05    1.09e-05
+R_yardbuildingsqft26                      3.167e-06   1.11e-05      0.284      0.776   -1.87e-05     2.5e-05
+==============================================================================
+Omnibus:                    63857.608   Durbin-Watson:                   1.929
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         64236815.518
+Skew:                           2.005   Prob(JB):                         0.00
+Kurtosis:                     133.438   Cond. No.                     1.30e+16
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 4.33e-16. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+
+
+
+
+

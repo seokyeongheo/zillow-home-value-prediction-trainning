@@ -1,0 +1,37 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             R_logerror   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     8.309
+Date:                Tue, 03 Jul 2018   Prob (F-statistic):           4.67e-17
+Time:                        02:19:33   Log-Likelihood:                 36789.
+No. Observations:               90275   AIC:                        -7.355e+04
+Df Residuals:                   90261   BIC:                        -7.342e+04
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================================
+                                        coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+C(C_propertylandusetypeid)[31.0]     -0.0344      0.039     -0.880      0.379      -0.111       0.042
+C(C_propertylandusetypeid)[47.0]      1.3010      0.161      8.081      0.000       0.985       1.617
+C(C_propertylandusetypeid)[246.0]     0.0094      0.003      2.859      0.004       0.003       0.016
+C(C_propertylandusetypeid)[247.0]    -0.0046      0.006     -0.718      0.473      -0.017       0.008
+C(C_propertylandusetypeid)[248.0]     0.0054      0.005      0.992      0.321      -0.005       0.016
+C(C_propertylandusetypeid)[260.0]     0.0046      0.020      0.225      0.822      -0.035       0.045
+C(C_propertylandusetypeid)[261.0]     0.0121      0.001     18.477      0.000       0.011       0.013
+C(C_propertylandusetypeid)[263.0]     0.1043      0.018      5.935      0.000       0.070       0.139
+C(C_propertylandusetypeid)[264.0]     0.0476      0.049      0.980      0.327      -0.048       0.143
+C(C_propertylandusetypeid)[265.0]     0.0140      0.009      1.640      0.101      -0.003       0.031
+C(C_propertylandusetypeid)[266.0]     0.0104      0.001      9.740      0.000       0.008       0.012
+C(C_propertylandusetypeid)[267.0]     0.0411      0.030      1.351      0.177      -0.019       0.101
+C(C_propertylandusetypeid)[269.0]     0.0094      0.003      2.821      0.005       0.003       0.016
+C(C_propertylandusetypeid)[275.0]     0.0503      0.024      2.119      0.034       0.004       0.097
+==============================================================================
+Omnibus:                    66181.881   Durbin-Watson:                   1.927
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         65187331.155
+Skew:                           2.169   Prob(JB):                         0.00
+Kurtosis:                     134.573   Cond. No.                         246.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
